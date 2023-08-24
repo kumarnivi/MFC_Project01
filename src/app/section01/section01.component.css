@@ -1,0 +1,52 @@
+h1 {
+    font-size: 4.17rem;
+    color: #07133b; 
+    
+}
+
+/* Base styles for desktop */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for mobile */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col-6 {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+
+ /*Fluid responsive */
+ html {
+    font-size: 0.875rem;
+  }
+  @media screen and (max-width: 1280px) and (min-width: 768px) {
+    html {
+      font-size: 1vw;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    a {
+      cursor: default;
+    }
+  }

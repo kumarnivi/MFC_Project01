@@ -25,9 +25,23 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "C:/Users/ADMIN/Documents/MFC_Reales/node_modules/bootstrape/css/catalyzeai.webflow.ce9122e77.min.css",
+              "C:/Users/ADMIN/Documents/MFC_Reales/node_modules/bootstrape/css/remodal-default-theme.min.css",
+              "C:/Users/ADMIN/Documents/MFC_Reales/node_modules/bootstrape/css/remodal.min.css",
+              "C:/Users/ADMIN/Documents/MFC_Reales/node_modules/bootstrape/css/swiper-bundle.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "C:/Users/ADMIN/Documents/MFC_Reales/node_modules/bootstrape/js/purecounter_vanilla.js",
+              "C:/Users/ADMIN/Documents/MFC_Reales/node_modules/bootstrape/js/remodal.min.js",
+              "C:/Users/ADMIN/Documents/MFC_Reales/node_modules/bootstrape/js/SmoothScroll.min.js",
+              "C:/Users/ADMIN/Documents/MFC_Reales/node_modules/bootstrape/js/swiper-bundle.min.js",
+              "C:/Users/ADMIN/Documents/MFC_Reales/node_modules/bootstrape/js/webflow.d212a84a4.js",
+              "C:/Users/ADMIN/Documents/MFC_Reales/node_modules/bootstrape/js/webfont.js"
+
+
+
+            ]
           },
           "configurations": {
             "production": {
