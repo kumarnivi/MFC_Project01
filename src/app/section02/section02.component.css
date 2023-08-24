@@ -8,6 +8,23 @@ h5 {
     color: #07133b;
 }
 
+.card {
+  background-color: #1ad079;
+  color: #FFFFFF;
+}
+
+.card1 {
+  background-color: #07133b;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* for responsive */
 
 .page-contain {
   display: flex;
