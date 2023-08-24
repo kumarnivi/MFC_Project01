@@ -1,0 +1,112 @@
+
+/* * {
+  font-family: regular", "Poppins ;
+} */
+
+/* Custom styles */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #f0f0f0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    font-family: Poppins;
+
+  }
+  
+  .radius{
+    border-radius: 10px;
+    max-width: 95%;
+  margin: auto;
+  }
+  
+  /* Other custom styles for your navbar */
+ 
+  .navbar {
+    transition: background-color 0.3s ease-in-out;
+  }
+  .navbar.scrolled {
+    background-color: #333; /* Change to the desired color */
+  }
+
+  .nav-item {
+    transition: transform 0.2s ease-in-out;
+  }
+  .nav-item:hover {
+    transform: translateY(-2px);
+  }
+
+  
+ /* hover Dorp Down  */
+ .dropdown-menu a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* button style */
+  .btn1 {
+    border:#1ad079 solid 1px;
+    border-radius: 5px;
+    
+  }
+
+
+
+  /* Define the initial state of the button */
+.btn1 {
+  
+  transition: border-color 5s ease-in-out;
+}
+
+/* Define the hover state animation */
+.btn1:hover {
+  border: 2px solid transparent;
+  border-color: #82d5ae;
+  /* Change this to your desired border color */
+}
+
+
+
+  a:active,a:hover {
+    outline: 0
+}
+
+
+ /* Custom styles */
+
+  .radius {
+    border-radius: 10px; /* You can adjust the radius value */
+  }
+
+  .navbar-toggler-icon {
+    border: none;
+    background-color: transparent;
+    /* You can customize the toggler icon style */
+  }
+
+  .nav-link {
+    color: black;
+    font-weight: bold;
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px 20px; /* Adjust as needed */
+    }
+    
+    .nav-link {
+      font-size: 14px; /* Decrease font size for smaller screens */
+    }
+  }
+
+
+
+
+
+
+
+  

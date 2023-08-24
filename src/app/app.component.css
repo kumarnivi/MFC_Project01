@@ -1,0 +1,12 @@
+html {
+    font-family: sans-serif,;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    height: 100%
+}
+
+body {
+    background-image: url('../assets/63a31337f5ac0cad3d268502_bg-01.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
