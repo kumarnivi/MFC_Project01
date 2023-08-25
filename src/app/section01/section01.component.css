@@ -1,3 +1,4 @@
+
 h1 {
     font-size: 4.17rem;
     color: #07133b; 
@@ -20,6 +21,10 @@ h1 {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.col-4 {
+  text-align: justify;
 }
 
 /* Media query for mobile */
