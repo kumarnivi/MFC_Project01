@@ -2,6 +2,51 @@
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
 </style>
 
+<script type="text/javascript">
+
+	window.addEventListener("resize", function() {
+		"use strict"; window.location.reload(); 
+	});
+
+
+	document.addEventListener("DOMContentLoaded", function(){
+
+		// make it as accordion for smaller screens
+		if (window.innerWidth > 992) {
+
+			document.querySelectorAll('.navbar .nav-item').forEach(function(everyitem){
+				
+				everyitem.addEventListener('mouseover', function(e){
+
+					let el_link = this.querySelector('a[data-bs-toggle]');
+
+					if(el_link != null){
+						let nextEl = el_link.nextElementSibling;
+						el_link.classList.add('show');
+				 		nextEl.classList.add('show');
+					}
+					
+				});
+				everyitem.addEventListener('mouseleave', function(e){
+				 	let el_link = this.querySelector('a[data-bs-toggle]');
+					
+					if(el_link != null){
+						let nextEl = el_link.nextElementSibling;
+						el_link.classList.remove('show');
+				 		nextEl.classList.remove('show');
+					}
+					
+
+				})
+			});
+
+		}
+		// end if innerWidth
+	}); 
+	// DOMContentLoaded  end
+
+</script>
+
 
 
 <div class="main">
@@ -24,7 +69,7 @@
               class="header__logo-img"
               />
             </a>
-          <div
+          <!-- <div
            
             class="header__menu-button"
           >
@@ -33,10 +78,14 @@
               <div class="header__menu-line menu-line__middle"></div>
               <div class="header__menu-line menu-line__bottom"></div>
             </div>
-          </div>
+          </div> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
         </div>
         <div
-          class="header__wrapper"
+          class="header__wrapper collapse" id="main_nav"
           style="font-family: 17.5px 'Poppins', sans-serif"
         >
           <div class="header__content-container">
@@ -44,7 +93,7 @@
               <div
                 data-hover="true"
                 data-delay="0"
-                class="dropdown mod--header w-dropdown"
+                class="    dropdown mod--header w-dropdown"
                 style=""
               >
                 <div
