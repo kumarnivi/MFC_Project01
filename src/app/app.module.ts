@@ -9,6 +9,7 @@ import { Section02Component } from './section02/section02.component';
 import { FooterComponent } from './footer/footer.component';
 import { VideoSectionComponent } from './video-section/video-section.component';
 import { Section03Component } from './section03/section03.component';
+import { Section04Component } from './section04/section04.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Section03Component } from './section03/section03.component';
     Section02Component,
     FooterComponent,
     VideoSectionComponent,
-    Section03Component
+    Section03Component,
+    Section04Component
   ],
   imports: [
     BrowserModule,
