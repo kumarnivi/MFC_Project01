@@ -1,108 +1,96 @@
-
-
-/* ============ desktop view ============ */
-/* @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{   }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}	 */
-/* ============ desktop view .end// ============ */
-/* .navbar-toggler-icon {
-    color: black; 
-  }
-*/
-
- .container{
+.container {
   padding-left: 10px;
   padding-right: 10px;
-
- }
+}
 
 a {
   text-decoration: none;
-  color:  #07133b ;
-  font-family: 'Poppins', sans-serif;
-  
-}  
- 
+  color: #07133b;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .nav-link {
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+/* ============ desktop view .end// ============ */
 
 
 
+a {
+  font-family: 15.89px "Poppins", sans-serif;
+  color: rgb(7, 19, 59);
+  font-weight: 600;
+}
+
+/* Custom styles for buttons */
+
+.btn-outline {
+  border-color: #1ad079;
+}
+
+/* Custom styles for the flat navigation bar */
+.navbar {
+}
+.navbar-brand {
+  color: #343a40; /* Brand text color */
+  margin-right: 100px;
+}
+.navbar-toggler {
+  border: none; /* Remove border from toggler */
+}
+.navbar-toggler-icon {
+  /* Change color of the toggler icon */
+  border: none;
+}
+.navbar-nav .nav-link {
+  color: #343a40; /* Nav link color */
+}
+.navbar-nav .nav-item.active .nav-link {
  
- /* ============ desktop view ============ */
- @media all and (min-width: 992px) {
-   .navbar .nav-item .dropdown-menu{ display: none; }
-   .navbar .nav-item:hover .nav-link{   }
-   .navbar .nav-item:hover .dropdown-menu{ display: block; }
-   .navbar .nav-item .dropdown-menu{ margin-top:0; }
- }	
- /* ============ desktop view .end// ============ */
+}
+
+.dropdown-menu {
+  border-radius: 10px; 
+  position: fixed;
+  border: none;
+
  
- 
- .navbar-toggler-icon {
-     /* Change color of the toggler icon */
-     border: none;
- }
- 
- a {
-     font-family:17.5px 'Poppins', sans-serif;
-     color:rgb(7, 19, 59);
-     font-weight: 600;
-     
- }
- 
- 
- 
- /* Custom styles for buttons */
- 
- .btn-outline {
-     border-color: #1ad079;
- }
- 
- 
- 
-  /* Custom styles for the flat navigation bar */
-  .navbar {
-     background-color: #f8f9fa; /* Background color */
-     border-radius: 10px; /* Border radius */
-     padding: 10px; 
-     padding-top: 18px;
-     padding-bottom: 18px;
-    
- }
- .navbar-brand {
-     color: #343a40; /* Brand text color */
-     margin-right: 100px;
- }
- .navbar-toggler {
-     border: none; /* Remove border from toggler */
- }
- .navbar-nav .nav-link {
-     color: #343a40; /* Nav link color */
- }
- .navbar-nav .nav-item.active .nav-link {
-     font-weight: bold; /* Bold active link */
- }
- .dropdown-menu {
-     border-radius: 10px; /* Border radius for dropdown */
-     /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
- }
- .dropdown-item {
+}
+.dropdown-item {
   margin-top: 10%;
-     color: #343a40; /* Dropdown item color */
- }
+  color: rgb(7, 19, 59);
+  border-radius: 10px;
+  font-size: 15.85px; /* Dropdown item color */
+  
+}
 
+.dropdown-item:hover {
+  background:rgb(228,246,240);
+  
+}
 
- .navbar {
+.navbar {
   border-radius: 10px;
   position: fixed;
   top: 20px;
   left: 65px;
   right: 65px;
-  background-color: #fff;
-  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); */
-  z-index: 1000; /* Ensure the navbar is above other elements */
+  z-index: 1000;
+  background-color: #f8f9fa;
+  padding: 10px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
@@ -110,9 +98,15 @@ a {
 }
 
 .dropdown-menu {
-  font-family:17.5px 'Poppins', sans-serif;
+  font-family: 17.5px "Poppins", sans-serif;
   padding-left: 10px;
   padding-right: 10px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+
+/* Disable other items when hovering over one item */
+.nav-item:hover ~ .nav-item {
+  pointer-events: none;
+  opacity: 0.5;
+}
