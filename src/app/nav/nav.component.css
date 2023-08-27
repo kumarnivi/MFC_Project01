@@ -41,7 +41,7 @@ a {
  
  
  .navbar-toggler-icon {
-     color: black; /* Change color of the toggler icon */
+     /* Change color of the toggler icon */
      border: none;
  }
  
@@ -115,3 +115,4 @@ a {
   padding-right: 10px;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
+

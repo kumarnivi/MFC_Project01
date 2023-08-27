@@ -7,9 +7,9 @@ import { NavComponent } from './nav/nav.component';
 import { Section01Component } from './section01/section01.component';
 import { Section02Component } from './section02/section02.component';
 import { FooterComponent } from './footer/footer.component';
-import { VideoSectionComponent } from './video-section/video-section.component';
 import { Section03Component } from './section03/section03.component';
 import { Section04Component } from './section04/section04.component';
+import { Section05Component } from './section05/section05.component';
 
 @NgModule({
   declarations: [
@@ -18,9 +18,9 @@ import { Section04Component } from './section04/section04.component';
     Section01Component,
     Section02Component,
     FooterComponent,
-    VideoSectionComponent,
     Section03Component,
-    Section04Component
+    Section04Component,
+    Section05Component
   ],
   imports: [
     BrowserModule,
