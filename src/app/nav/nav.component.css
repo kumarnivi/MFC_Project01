@@ -41,6 +41,7 @@ a {
 
 /* Custom styles for the flat navigation bar */
 .navbar {
+  box-shadow: 0px 40px 40px -34px rgba(0,0,0,.08);
 }
 .navbar-brand {
   color: #343a40; /* Brand text color */
@@ -56,19 +57,20 @@ a {
 .navbar-nav .nav-link {
   color: #343a40; /* Nav link color */
 }
-.navbar-nav .nav-item.active .nav-link {
- 
-}
+
 
 .dropdown-menu {
   border-radius: 10px; 
   position: fixed;
   border: none;
+  padding-left: 5%;
+  padding-right: 5%;
 
  
 }
 .dropdown-item {
   margin-top: 10%;
+  
   color: rgb(7, 19, 59);
   border-radius: 10px;
   font-size: 15.85px; /* Dropdown item color */
@@ -109,4 +111,28 @@ a {
 .nav-item:hover ~ .nav-item {
   pointer-events: none;
   opacity: 0.5;
+}
+
+.hero__bg-wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  min-height: 200vh;
+}
+
+body{
+  background-image: url(../../assets/63a31337f5ac0cad3d268502_bg-01.webp);
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
 }

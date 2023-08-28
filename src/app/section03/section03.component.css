@@ -1,0 +1,21 @@
+.img.mod--platform-parallax {
+    position: relative;
+    width: 1.875rem;
+    height: 2.6875rem;
+    background-image: url(../../assets/63a5a243760c9d1ca0c6b047_ico-$.svg);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.platform__subtitle {
+    margin-right: 2.22rem;
+    color: #07133b;
+}
+h3 {
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}

@@ -29,8 +29,10 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon" style="color:rgb(7, 19, 59); width: 30px; height: 30px ;"></span>
+            <span class="navbar-toggler-icon" style=" color: darkgreen; width: 30px; height: 30px ;"></span>
           </button>
+
+
           <div
             class="collapse navbar-collapse"
             id="main_nav"
@@ -95,7 +97,7 @@
                   </svg>
                   Financial Service</a
                 >
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu" >
                   <li><a class="dropdown-item" href="#">Pricing
                     <p style="font-weight: normal;">fixed marketing cost</p>
                   </a>
@@ -178,7 +180,7 @@
                   </svg>
                   Real Estate</a
                 >
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu" >
                   <li><a class="dropdown-item" href="#">Pricing
                     <p style="font-weight: normal;">fixed marketing cost</p>
                   </a></li>
@@ -359,7 +361,27 @@
   </div>
 </div>
 
+<div
+      style="
+        -webkit-transform: translate3d(0, 20%, 0) scale3d(1, 1, 1)
+          rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);
+        -moz-transform: translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0)
+          rotateY(0) rotateZ(0) skew(0, 0);
+        -ms-transform: translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0)
+          rotateY(0) rotateZ(0) skew(0, 0);
+        transform: translate3d(0, 20%, 0) scale3d(1, 1, 1) rotateX(0)
+          rotateY(0) rotateZ(0) skew(0, 0);
+      "
+      class="hero__bg-wrap"
+    >
+
+<div class="hero__bg mod--1 bg-grad-01 hero"></div>
+      <div class="hero__bg mod--2 bg-grad-01"></div>
+
+      </div>
 <!-- ============= COMPONENT END// ============== -->
+
+
 <section
   data-w-id="640ecf8f-5587-6ba3-4115-d9c629e92e21"
   class="section section--hero-finances"
@@ -500,3 +522,20 @@
     <div class="section__divider"></div>
   </div>
 </section>
+
+
+
+<script>
+  document.querySelector('.first-button').addEventListener('click', function () {
+
+document.querySelector('.animated-icon1').classList.toggle('open');
+});
+document.querySelector('.second-button').addEventListener('click', function () {
+
+document.querySelector('.animated-icon2').classList.toggle('open');
+});
+document.querySelector('.third-button').addEventListener('click', function () {
+
+document.querySelector('.animated-icon3').classList.toggle('open');
+});
+</script>

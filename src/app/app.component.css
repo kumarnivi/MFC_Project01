@@ -8,11 +8,25 @@
     
 }
 
-* body {
-    background-image: url('../assets/63a31337f5ac0cad3d268502_bg-01.webp');
+
+div{
+    background-image: url(../assets/63a31337f5ac0cad3d268502_bg-01.webp);
+    
+    background-size: 290rem;
     background-repeat: no-repeat;
-    background-size: cover;
- } 
+    background-position: center top; 
+  }
 
+  .bg{
+    background-image: url(../assets/63a31337f5ac0cad3d268502_bg-01.webp);
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+  }
 
+ 
+  html {
+    scroll-behavior: smooth;
+  }
  
