@@ -1,9 +1,9 @@
-.mab24{
-  margin-left: 33%  ;
+.mab24 {
+  margin-left: 33%;
 }
 
-.mb{
- margin-left: 28% ;
+.mb {
+  margin-left: 28%;
 }
 
 .properties__add-info {
@@ -13,5 +13,4 @@
   right: 0;
   bottom: auto;
   color: #141f45;
-  font-weight: 600;
 }
