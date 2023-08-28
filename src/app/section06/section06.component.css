@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+
+*{
+  font-family: 15.89px "Poppins", sans-serif;
+}
+
 .heading-small {
     color: #07133b;
     font-size: 1.25rem;
