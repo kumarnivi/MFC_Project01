@@ -3,14 +3,28 @@
 *{
   font-family: 15.89px "Poppins", sans-serif;
 }
-.img.mod--platform-parallax {
+.section {
     position: relative;
-    width: 1.875rem;
-    height: 2.6875rem;
-    background-image: url(../../assets/63a5a243760c9d1ca0c6b047_ico-$.svg);
-    background-position: 50% 50%;
-    background-size: contain;
-    background-repeat: no-repeat;
+    z-index: 5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 11.11rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
-
 
