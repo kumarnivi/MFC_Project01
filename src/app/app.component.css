@@ -36,38 +36,6 @@ div {
   background: #1ad079;
   border-radius: 10px;
 }
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
-  transition: 0.2s;
-}
-input:-moz-placeholder,
-textarea:-moz-placeholder {
-  transition: 0.2s;
-}
-input::-moz-placeholder,
-textarea::-moz-placeholder {
-  transition: 0.2s;
-}
-input:-ms-input-placeholder,
-textarea:-ms-input-placeholde {
-  transition: 0.2s;
-}
-input:focus:-ms-input-placeholder,
-textarea:focus:-ms-input-placeholde {
-  opacity: 0;
-}
-input:focus::-moz-placeholder,
-textarea:focus::-moz-placeholder {
-  opacity: 0;
-}
-input:focus:-moz-placeholder,
-textarea:focus:-moz-placeholder {
-  opacity: 0;
-}
-input:focus::-webkit-input-placeholder,
-textarea:focus::-webkit-input-placeholder {
-  opacity: 0;
-}
 .footer__radio-container.w-radio.is--active {
   border-color: #1ad079;
   color: #1ad079;
@@ -78,9 +46,7 @@ textarea:focus::-webkit-input-placeholder {
 main:focus-visible {
   outline: -webkit-focus-ring-color auto 0px;
 }
-.container-medium,
-.container-small,
-.container-large {
+.container-medium,.container-small,.container-large {
   margin-right: auto !important;
   margin-left: auto !important;
 }
