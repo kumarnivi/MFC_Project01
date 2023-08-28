@@ -1,44 +1,17 @@
-
-  
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
-
-  
-  
-* {
-  font-family: 15.89px "Poppins", sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    height: 100%
-    
+div {
+  background-image: url(../assets/63a31337f5ac0cad3d268502_bg-01.webp);
+  background-size: 290rem;
+  background-repeat: no-repeat;
+  background-position: center top;
 }
-
-
-div{
-    background-image: url(../assets/63a31337f5ac0cad3d268502_bg-01.webp);
-    
-    background-size: 290rem;
-    background-repeat: no-repeat;
-    background-position: center top; 
-  }
-
-  .bg{
-    background-image: url(../assets/63a31337f5ac0cad3d268502_bg-01.webp);
-    
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center center; 
-  }
-
- 
-  html {
-    scroll-behavior: smooth;
-  }
- 
-
-  /* You can add global styles to this file, and also import other style files */
+.bg {
+  background-image: url(../assets/63a31337f5ac0cad3d268502_bg-01.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
-
-*{
+* {
   font-family: 15.89px "Poppins", sans-serif;
 }
 .w-webflow-badge {
@@ -53,7 +26,6 @@ div{
 *:focus {
   outline: 0 !important;
 }
-
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -64,7 +36,6 @@ div{
   background: #1ad079;
   border-radius: 10px;
 }
-
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   transition: 0.2s;
@@ -97,7 +68,6 @@ input:focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder {
   opacity: 0;
 }
-
 .footer__radio-container.w-radio.is--active {
   border-color: #1ad079;
   color: #1ad079;
@@ -106,80 +76,70 @@ textarea:focus::-webkit-input-placeholder {
   resize: none;
 }
 
-
-
 /* nav css */
 
-/* Snippet gets rid of top margin on first element in any rich text*/
+
 .w-richtext > :first-child {
   margin-top: 0;
 }
-/* Snippet gets rid of bottom margin on last element in any rich text*/
+
 .w-richtext > :last-child,
 .w-richtext ol li:last-child,
 .w-richtext ul li:last-child {
   margin-bottom: 0;
 }
-/* Snippet prevents all click and hover interaction with an element */
+
 .clickable-off {
   pointer-events: none;
 }
-/* Snippet enables all click and hover interaction with an element */
+
 .clickable-on {
   pointer-events: auto;
 }
-/* Snippet enables you to add class of div-square which creates and maintains a 1:1 dimension of a div.*/
+
 .div-square::after {
   content: "";
   display: block;
   padding-bottom: 100%;
 }
-/*Hide focus outline for main content element*/
 main:focus-visible {
   outline: -webkit-focus-ring-color auto 0px;
 }
-/* Make sure containers never lose their center alignment*/
 .container-medium,
 .container-small,
 .container-large {
   margin-right: auto !important;
   margin-left: auto !important;
 }
-/*Reset buttons, and links styles*/
 a {
   color: inherit;
   text-decoration: inherit;
   font-size: inherit;
 }
-/*Apply "..." after 5 lines of text */
 .text-style-5lines {
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
-/*Apply "..." after 4 lines of text */
 .text-style-4lines {
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
 }
-/*Apply "..." after 3 lines of text */
 .text-style-3lines {
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-/*Apply "..." after 2 lines of text */
 .text-style-2lines {
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-/*Apply "..." after 2 lines of text */
 .text-style-1lines {
   display: -webkit-box;
   overflow: hidden;
@@ -187,7 +147,6 @@ a {
   -webkit-box-orient: vertical;
 }
 
-/*Fluid responsive */
 html {
   font-size: 0.875rem;
 }
@@ -196,13 +155,11 @@ html {
     font-size: 1vw;
   }
 }
-
 @media only screen and (max-width: 767px) {
   a {
     cursor: default;
   }
 }
-
 .ventures__collection-item:nth-child(1) {
   width: 30.56rem;
   height: 21.39rem;
@@ -222,7 +179,6 @@ html {
   margin-left: auto;
   margin-top: auto;
 }
-
 @media only screen and (max-width: 767px) {
   .hero__bg-wrap {
     transform: translateY(0px) !important;
@@ -244,7 +200,6 @@ html {
     height: 100%;
   }
 }
-
 [data-btn]:hover .btn-bg {
   transform: scale(0.92);
 }
@@ -258,7 +213,6 @@ html {
   transition: 0.8s;
   transform: scale(2.2);
 }
-
 [data-link]:hover .button__dot {
   transform: scale(1);
 }
@@ -279,7 +233,6 @@ html {
 [data-link]:hover:after {
   width: 100%;
 }
-
 [data-link-footer-info]:before,
 [data-link-footer-info]:after {
   content: "";
@@ -377,7 +330,6 @@ input[type="checkbox"]:checked ~ .w-form-label {
   transform: scale(1);
   opacity: 1;
 }
-
 .w-lightbox-container {
   overflow: hidden;
 }
